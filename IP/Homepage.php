@@ -47,7 +47,10 @@
       <a class="nav-link" href="Login[NoLog].php">สินค้่า</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Register[NoLog].php">Register</a>
+      <a class="nav-link" href="Register[NoLog].php">Login</a>
+      <li class="nav-item">
+        <a class="nav-link" href="Register[NoLog].php">Register</a>
+      </li>
     </li>
   </ul>
 </nav>
@@ -93,11 +96,17 @@
   </div>
   </div>
   <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <div class="rightspace" id="rightspace">
+    <table style="width:95%">
+
+      <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
+      </th></tr>
+      <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
+      </th></tr>
+      <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+  </table>
+  </div>
   </div>
 </div>
-
-
 </body>
 </html>

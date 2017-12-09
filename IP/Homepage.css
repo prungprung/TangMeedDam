@@ -110,3 +110,11 @@ body {
         width: 100%;
     }
 }
+#rightspace{
+  margin-left: 20%;
+margin-top: 22%;
+border-radius: 50%;
+.img {
+    border-radius: 50%;
+}
+}
