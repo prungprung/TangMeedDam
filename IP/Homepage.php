@@ -12,8 +12,24 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="Homepage.css">
 
+  <style>
+  .button {
+      background-color: #696969;
+      border: none;
+      color: black;
+      padding: 5px 90px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+
+  </style>
+
 </head>
-<body background="steel.jpg">
+<body background="BG2.jpg">
   <div class="jumbotron jumbotron-fluid" id="headerJumbo">
     <div class="container" id="jumboHead">
 
@@ -22,7 +38,6 @@
       </div>
     </div>
   </div>
-
   <nav class="navbar navbar-expand-md bg-dark navbar-dark" id = "navbar">
   <ul class="navbar-nav">
     <li class="nav-item active">
@@ -36,20 +51,52 @@
     </li>
   </ul>
 </nav>
-<class " cpl-ml-"
-  <div class="leftside" id = "leftside" board = "2">
-    <table style="width:100%" border="2">
+<div class="row">
+  <div class="column side">
+
+    <div class = "leftspace" id="leftspace">
+      <h2>CATEGORY<h2>
+
+
+        <button class="button">&nbsp;มีด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button">&nbsp;เต้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button">กระเป๋า&nbsp;</button><br>
+        <button class="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชุด&nbsp;&nbsp;</button><br>
+        <button class="button">&nbsp;&nbsp;&nbsp;อื่นๆ&nbsp;&nbsp;</button>
+    </div>
+  </div>
+  <div class="column middle">
+    <div class="centerspace" id="centerspace">
+      <p><h1>สินค้าใหม่</h1></p>
+      <table style="width:95%">
       <tr>
-        <th>Firstname</th>
-      </tr>
-      <tr>
-        <td>Jill</td>
-      </tr>
-      <tr>
-        <td>Eve</td>
+        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
+        หน้าร่านน</th>
+        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
+        หน้าหี</th>
+        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
+        หน้าหรี่</th>
       </tr>
     </table>
+
+    <p><h1>แนะนำ</h1></p>
+    <table style="width:95%">
+    <tr>
+      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
+      หน้าร่านน</th>
+      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
+      หน้าหี</th>
+      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
+      หน้าหรี่</th>
+    </tr>
+  </table>
   </div>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
 
 
 </body>
