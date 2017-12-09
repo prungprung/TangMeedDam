@@ -1,0 +1,31 @@
+.jumbotron{
+    /*min-height: 300px;*/
+    max-height: 200px;
+}
+#picinjumbo{
+    margin-top: -80px;
+}
+#picinjumbo p{
+    margin-top: -10px;
+}
+#headerJumbo{
+    margin-left: -40% ;
+    background-color: #007BFF;
+    color: white;
+}
+#navbar{
+    /*margin-top: -2.8%;*/
+    margin-top: -50px;
+    position: relative;
+}
+#container{
+  margin-top: -200px;
+
+
+}
+#leftside{
+margin-top: 30px;
+margin-left: 25px ;
+color: white;
+
+}
