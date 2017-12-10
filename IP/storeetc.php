@@ -44,7 +44,7 @@
       <a class="nav-link" href="Homepage.php">หน้าหลัก</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="jjj".php">สินค้่า</a>
+      <a class="nav-link" href="jjj.php">สินค้่า</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Login.php">Login</a>
@@ -70,29 +70,42 @@
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>สินค้าใหม่</h1></p>
-      <table style="width:95%">
-      <tr>
-        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าร่านน</th>
-        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหี</th>
-        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหรี่</th>
-      </tr>
-    </table>
+      <p><h1>Bagback</h1></p>
+      <table style="width:80%">
+  <tr>
+    <th>Picture</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>&emsp;&emsp;&emsp;Buy</th>
 
-    <p><h1>แนะนำ</h1></p>
-    <table style="width:95%">
-    <tr>
-      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าร่านน</th>
-      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหี</th>
-      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหรี่</th>
-    </tr>
-  </table>
+  </tr>
+  <tr>
+    <td><img src="etc.jpg" alt="etc" width="150" height="150"></td>
+    <td>Fenix TK20R</td>
+    <td>3,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="etc2.jpg" alt="etc" width="150" height="150"></td>
+    <td>Pinnacle Dualist Cookset</td>
+    <td>5,800</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+
+  <tr>
+    <td><img src="etc3.jpg" alt="etc" width="150" height="150"></td>
+    <td>Camp Folding Cot</td>
+    <td>2,300</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="etc4.jpg" alt="etc" width="150" height="150"></td>
+    <td>Flexlite Table</td>
+    <td>3,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+</table>
+
   </div>
   </div>
   <div class="column side">

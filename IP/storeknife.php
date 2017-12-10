@@ -44,10 +44,10 @@
       <a class="nav-link" href="Homepage.php">หน้าหลัก</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="jjj".php">สินค้่า</a>
+      <a class="nav-link" href="jjj.php">สินค้่า</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Login.php">Login</a>
+      <a class="nav-link" href="login.php">Login</a>
       <li class="nav-item">
         <a class="nav-link" href="Register.php">Register</a>
       </li>
@@ -70,29 +70,54 @@
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>สินค้าใหม่</h1></p>
-      <table style="width:95%">
-      <tr>
-        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าร่านน</th>
-        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหี</th>
-        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหรี่</th>
-      </tr>
-    </table>
+      <p><h1>Knife่</h1></p>
+      <table style="width:80%">
+  <tr>
+    <th>Picture</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>&emsp;&emsp;&emsp;Buy</th>
 
-    <p><h1>แนะนำ</h1></p>
-    <table style="width:95%">
-    <tr>
-      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าร่านน</th>
-      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหี</th>
-      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหรี่</th>
-    </tr>
-  </table>
+  </tr>
+  <tr>
+    <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
+    <td>kershaw Hype</td>
+    <td>2,000</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
+    <td>Jackson orange</td>
+    <td>3,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+
+  <tr>
+    <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
+    <td>Leatherman Wave</td>
+    <td>5,000</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
+    <td>Leatherman Wingman</td>
+    <td>4,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
+    <td>Buck 845 Vantage Force</td>
+    <td>9,000</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
+    <td>Buck 284 Bantam BBW</td>
+    <td>6,535</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+</table>
+
   </div>
   </div>
   <div class="column side">

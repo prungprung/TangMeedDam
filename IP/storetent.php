@@ -44,12 +44,12 @@
       <a class="nav-link" href="Homepage.php">หน้าหลัก</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="jjj".php">สินค้่า</a>
+      <a class="nav-link" href="jjj.php">สินค้่า</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Login.php">Login</a>
       <li class="nav-item">
-        <a class="nav-link" href="Register.php">Register</a>
+        <a class="nav-link" href="Register[NoLog].php">Register</a>
       </li>
     </li>
   </ul>
@@ -70,29 +70,36 @@
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>สินค้าใหม่</h1></p>
-      <table style="width:95%">
-      <tr>
-        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าร่านน</th>
-        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหี</th>
-        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหรี่</th>
-      </tr>
-    </table>
+      <p><h1>Tent</h1></p>
+      <table style="width:80%">
+  <tr>
+    <th>Picture</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>&emsp;&emsp;&emsp;Buy</th>
 
-    <p><h1>แนะนำ</h1></p>
-    <table style="width:95%">
-    <tr>
-      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าร่านน</th>
-      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหี</th>
-      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหรี่</th>
-    </tr>
-  </table>
+  </tr>
+  <tr>
+    <td><img src="Tent.jpg" alt="Tent" width="150" height="150"></td>
+    <td>Half Dome 2 Plus</td>
+    <td>8,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="Tent2.jpg" alt="Tent" width="150" height="150"></td>
+    <td>OneLink Shelter</td>
+    <td>7,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+
+  <tr>
+    <td><img src="Tent3.jpg" alt="Tent" width="150" height="150"></td>
+    <td>Kingdom 6 Tent</td>
+    <td>10,500</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+  </tr>
+</table>
+
   </div>
   </div>
   <div class="column side">
