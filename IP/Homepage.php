@@ -12,24 +12,8 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="Homepage.css">
 
-  <style>
-  .button {
-      background-color: #696969;
-      border: none;
-      color: black;
-      padding: 5px 90px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-  }
-
-  </style>
-
 </head>
-<body background="BG2.jpg">
+<body background="steel.jpg">
   <div class="jumbotron jumbotron-fluid" id="headerJumbo">
     <div class="container" id="jumboHead">
 
@@ -38,6 +22,7 @@
       </div>
     </div>
   </div>
+
   <nav class="navbar navbar-expand-md bg-dark navbar-dark" id = "navbar">
   <ul class="navbar-nav">
     <li class="nav-item active">
@@ -47,66 +32,25 @@
       <a class="nav-link" href="Login[NoLog].php">สินค้่า</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Register[NoLog].php">Login</a>
-      <li class="nav-item">
-        <a class="nav-link" href="Register[NoLog].php">Register</a>
-      </li>
+      <a class="nav-link" href="Register[NoLog].php">Register</a>
     </li>
   </ul>
 </nav>
-<div class="row">
-  <div class="column side">
-
-    <div class = "leftspace" id="leftspace">
-      <h2>CATEGORY<h2>
-
-
-        <button class="button">&nbsp;มีด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button">&nbsp;เต้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button">กระเป๋า&nbsp;</button><br>
-        <button class="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชุด&nbsp;&nbsp;</button><br>
-        <button class="button">&nbsp;&nbsp;&nbsp;อื่นๆ&nbsp;&nbsp;</button>
-    </div>
-  </div>
-  <div class="column middle">
-    <div class="centerspace" id="centerspace">
-      <p><h1>สินค้าใหม่</h1></p>
-      <table style="width:95%">
+<class " cpl-ml-"
+  <div class="leftside" id = "leftside" board = "2">
+    <table style="width:100%" border="2">
       <tr>
-        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าร่านน</th>
-        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหี</th>
-        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหรี่</th>
+        <th>Firstname</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
       </tr>
     </table>
+  </div>
 
-    <p><h1>แนะนำ</h1></p>
-    <table style="width:95%">
-    <tr>
-      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าร่านน</th>
-      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหี</th>
-      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหรี่</th>
-    </tr>
-  </table>
-  </div>
-  </div>
-  <div class="column side">
-    <div class="rightspace" id="rightspace">
-    <table style="width:95%">
 
-      <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
-      </th></tr>
-      <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
-      </th></tr>
-      <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
-  </table>
-  </div>
-  </div>
-</div>
 </body>
 </html>
