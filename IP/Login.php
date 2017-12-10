@@ -40,7 +40,7 @@ input[type=password] : focus {
 
 <body>
   <div class="name" id="name">
-  <font size=8 color="pink">
+  <font size=8 color="white">
   <p>Welcome to CSB outdoor store</p>
 </div>
 
@@ -53,9 +53,9 @@ input[type=password] : focus {
     <input type="password" id="fname" name="fname"><br><br>
   </div>
     <div class="button" id="button">
-    <button type="button" onclick="alert('KUY')">Login</button>
-    <button type="button" onclick="alert('หน้าโง่')">Register</button>
-    <button type="button" onclick="alert('buffalo')">Home</button>
+    <button type="button"onclick="window.location.href='Homepagelogin.php'">Login</button>
+    <button type="button" onclick="window.location.href='Register.php'">Register</button>
+    <button type="button" onclick="window.location.href='Homepage.php'">Home</button>
   </form>
   </div>
 </body>

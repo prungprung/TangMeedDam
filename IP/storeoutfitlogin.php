@@ -41,16 +41,13 @@
   <nav class="navbar navbar-expand-md bg-dark navbar-dark" id = "navbar">
   <ul class="navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="Homepage.php">Home</a>
+      <a class="nav-link" href="Homepagelogin.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Goods.php">Item</a>
+      <a class="nav-link" href="Goodslogin.php">Item</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="login.php">Login</a>
-      <li class="nav-item">
-        <a class="nav-link" href="Register.php">Register</a>
-      </li>
+      <a class="nav-link" href="Homepage.php">Logout</a>
     </li>
   </ul>
 </nav>
@@ -61,16 +58,16 @@
       <h2>CATEGORY<h2>
 
 
-        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Kinfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storetent.php'">&nbsp;&nbsp;&nbsp;&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storebag.php'">BackBag&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeoutfit.php'">&nbsp;&nbsp;&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeetc.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storetentlogin.php'">&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storebaglogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bag&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Oytfit&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeetclogin.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;</button>
     </div>
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>Knife</h1></p>
+      <p><h1>Outfit</h1></p>
       <table style="width:80%">
   <tr>
     <th>Picture</th>
@@ -80,41 +77,29 @@
 
   </tr>
   <tr>
-    <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>kershaw Hype</td>
-    <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><img src="outfit.jpg" alt="outfit" width="150" height="150"></td>
+    <td>MOUNTAIN JACKET</td>
+    <td>16,000</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
   <tr>
-    <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Jackson orange</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><img src="outfit2.jpg" alt="outfit" width="150" height="150"></td>
+    <td>SNOWFUSE BOOTS</td>
+    <td>2,700</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
 
   <tr>
-    <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wave</td>
-    <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><img src="outfit3.jpg" alt="outfit" width="150" height="150"></td>
+    <td>MOTION PANTS</td>
+    <td>2,950</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
   <tr>
-    <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wingman</td>
-    <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
-  </tr>
-  <tr>
-    <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 845 Vantage Force</td>
-    <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
-  </tr>
-  <tr>
-    <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 284 Bantam BBW</td>
-    <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><img src="outfit4.jpg" alt="outfit" width="150" height="150"></td>
+    <td>SHERPA GAITER</td>
+    <td>900</td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
 </table>
 

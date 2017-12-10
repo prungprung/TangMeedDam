@@ -41,10 +41,10 @@
   <nav class="navbar navbar-expand-md bg-dark navbar-dark" id = "navbar">
   <ul class="navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="Homepage.php">หน้าหลัก</a>
+      <a class="nav-link" href="Homepage.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="jjjj.php">สินค้่า</a>
+      <a class="nav-link" href="Goods.php">Item</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Login.php">Login</a>
@@ -61,11 +61,11 @@
       <h2>CATEGORY<h2>
 
 
-        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;มีด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storetent.php'">&nbsp;เต้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storebag.php'">กระเป๋า&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeoutfit.php'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชุด&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeetc.php'">&nbsp;&nbsp;&nbsp;อื่นๆ&nbsp;&nbsp;</button>
+        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Kinfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storetent.php'">&nbsp;&nbsp;&nbsp;&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storebag.php'">BackBag&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeoutfit.php'">&nbsp;&nbsp;&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeetc.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
     </div>
   </div>
   <div class="column middle">
@@ -83,20 +83,20 @@
     <td><img src="backbag.jpg" alt="backbag" width="150" height="150"></td>
     <td>WASING 55L</td>
     <td>1,900</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
   </tr>
   <tr>
     <td><img src="backbag2.jpg" alt="backbag" width="150" height="150"></td>
     <td>TETON Sports Explorer 4000</td>
     <td>2,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
   </tr>
 
   <tr>
     <td><img src="backbag3.jpg" alt="backbag" width="150" height="150"></td>
     <td>G4Free 50L Outdoor Backpack</td>
     <td>1,650</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
   </tr>
 </table>
 

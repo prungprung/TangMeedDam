@@ -14,7 +14,8 @@
     <p align = center> E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input type="text" name="email"> </p>
     <center>
-      <button type="button" onclick = "alert('SUCCESS')"> Submit</button>
+      <button type="button" onclick="window.location.href='Login.php'">Submit</button>
+      <button type="button" onclick="window.location.href='Homepage.php'">Home</button>
     </center>
   </font>
   </form>
