@@ -1,7 +1,6 @@
 <html>
 <head></head>
 <style>
-
 input[type=text] : focus {
     width: 25%
     padding: 120px 20px;
@@ -37,7 +36,6 @@ input[type=password] : focus {
     background-image: url("BG.jpg");
   }
 </style>
-
 <body>
   <div class="name" id="name">
   <font size=8 color="white">
@@ -46,17 +44,29 @@ input[type=password] : focus {
 
   <div class="login" id ="login">
 </font>
-  <form>
+  <form method="POST" action="checklogin.php">
     <label for="fname">Username</label>
     <input type="text" id="fname" name="fname"><br><br>
     <label for="fname">Password&nbsp;</label>
-    <input type="password" id="fname" name="fname"><br><br>
+    <input type="password" id="password" name="password"><br><br>
   </div>
     <div class="button" id="button">
-    <button type="button"onclick="window.location.href='Homepagelogin.php'">Login</button>
+    <button type="submit">Login</button>
     <button type="button" onclick="window.location.href='Register.php'">Register</button>
     <button type="button" onclick="window.location.href='Homepage.php'">Home</button>
   </form>
+  </div>
+  <div class="imgbottom" id="imgbottom">
+    <table style="width:95%">
+    <tr>
+      <th><img src="Gerber.jpg" alt="knife" height="200" width="250"></th>
+      <th><img src="victorinox.jpg" alt="knife" height="200" width="400"></th>
+      <th><img src="coldsteel.jpg" alt="knife" height="200" width="400"></th>
+    </tr>
+  </table>
+
+
+
   </div>
 </body>
 </html>

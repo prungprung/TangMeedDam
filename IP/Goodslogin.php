@@ -47,10 +47,7 @@
       <a class="nav-link" href="Goodslogin.php">Item</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="login.php">Login</a>
-      <li class="nav-item">
-        <a class="nav-link" href="Register.php">Register</a>
-      </li>
+      <a class="nav-link" href="checklogout.php">logout</a>
     </li>
   </ul>
 </nav>

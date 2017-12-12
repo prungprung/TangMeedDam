@@ -6,10 +6,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="Homepage.css">
 
   <style>
@@ -65,55 +61,57 @@
         <button class="button"onclick="window.location.href='storeetclogin.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;</button>
     </div>
   </div>
+
   <div class="column middle">
     <div class="centerspace" id="centerspace">
       <p><h1>Knife</h1></p>
-      <table style="width:80%">
+      <form action="cart.php" method="post">
+      <table style="width:100%">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Buy</th>
-
+    <th>&emsp;&emsp;&emsp;Add to cart</th>
   </tr>
   <tr>
     <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>kershaw Hype</td>
     <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="1" onclick="alert('Hello world!')">Add</button></td>
   </tr>
   <tr>
     <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Jackson orange</td>
     <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="2" onclick="alert('Hello world!')">Add</button></td>
   </tr>
 
   <tr>
     <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>Leatherman Wave</td>
     <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="3" onclick="alert('Hello world!')">Add</button></td>
   </tr>
   <tr>
     <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Leatherman Wingman</td>
     <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="4" onclick="alert('Hello world!')">Add</button></td>
   </tr>
   <tr>
     <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>Buck 845 Vantage Force</td>
     <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="5" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
   <tr>
     <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Buck 284 Bantam BBW</td>
     <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="6" onclick="alert('Hello world!')">Buy</button></td>
   </tr>
 </table>
+</form>
 
   </div>
   </div>
