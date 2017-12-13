@@ -27,7 +27,6 @@
   }
 
   </style>
-
 </head>
 <body background="BG2.jpg">
   <div class="jumbotron jumbotron-fluid" id="headerJumbo">
@@ -57,11 +56,14 @@
 <div class="row">
   <div class="column side">
 
+
+
     <div class = "leftspace" id="leftspace">
-      <h2>CATEGORY<h2>
+      <p>&emsp;&emsp;&emsp;&emsp;&emsp;Not Login</P>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY<h2>
 
 
-        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Kinfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetent.php'">&nbsp;&nbsp;&nbsp;&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storebag.php'">BackBag&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeoutfit.php'">&nbsp;&nbsp;&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
@@ -70,139 +72,120 @@
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>Knife่</h1></p>
-      <table style="width:80%">
+      <p><h1>All Item</h1></p>
+      <table style="width:90%" class="table">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Buy</th>
+    <th>Add cart</th>
 
   </tr>
   <tr>
     <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>kershaw Hype</td>
-    <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >kershaw Hype</div></td>
+    <td><div class="text" >2,000</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Jackson orange</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Jackson orange</div></td>
+    <td><div class="text" >3,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wave</td>
-    <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Leatherman Wave</div></td>
+    <td><div class="text" >5,000</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wingman</td>
-    <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Leatherman Wingman</div></td>
+    <td><div class="text" >4,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 845 Vantage Force</td>
-    <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Buck 845 Vantage Force</div></td>
+    <td><div class="text" >9,000</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 284 Bantam BBW</td>
-    <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Buck 284 Bantam BBW</div></td>
+    <td><div class="text" >6,535</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="Tent.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Half Dome 2 Plus</td>
-    <td>8,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Half Dome 2 Plus</div></td>
+    <td><div class="text" >8,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="Tent2.jpg" alt="Tent" width="150" height="150"></td>
-    <td>OneLink Shelter</td>
-    <td>7,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >OneLink Shelter</div></td>
+    <td><div class="text" >7,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="Tent3.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Kingdom 6 Tent</td>
-    <td>10,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Kingdom 6 Tent</div></td>
+    <td><div class="text" >10,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="backbag.jpg" alt="backbag" width="150" height="150"></td>
-    <td>WASING 55L</td>
-    <td>1,900</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >WASING 55L</div></td>
+    <td><div class="text" >1,900</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="backbag2.jpg" alt="backbag" width="150" height="150"></td>
-    <td>TETON Sports Explorer 4000</td>
-    <td>2,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >TETON Sports Explorer 4000</div></td>
+    <td><div class="text" >2,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="backbag3.jpg" alt="backbag" width="150" height="150"></td>
-    <td>G4Free 50L Outdoor Backpack</td>
-    <td>1,650</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >G4Free 50L Outdoor Backpack</div></td>
+    <td><div class="text" >1,650</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="outfit.jpg" alt="outfit" width="150" height="150"></td>
-    <td>MOUNTAIN JACKET</td>
-    <td>16,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >MOUNTAIN JACKET</div></td>
+    <td><div class="text" >16,000</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="outfit2.jpg" alt="outfit" width="150" height="150"></td>
-    <td>SNOWFUSE BOOTS</td>
-    <td>2,700</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >SNOWFUSE BOOTS</div></td>
+    <td><div class="text" >2,700</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="outfit3.jpg" alt="outfit" width="150" height="150"></td>
-    <td>MOTION PANTS</td>
-    <td>2,950</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >MOTION PANTS</div></td>
+    <td><div class="text" >2,950</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="outfit4.jpg" alt="outfit" width="150" height="150"></td>
-    <td>SHERPA GAITER</td>
-    <td>900</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
-  </tr>
-  <tr>
-    <td><img src="etc.jpg" alt="etc" width="150" height="150"></td>
-    <td>Fenix TK20R</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
-  </tr>
-  <tr>
-    <td><img src="etc2.jpg" alt="etc" width="150" height="150"></td>
-    <td>Pinnacle Dualist Cookset</td>
-    <td>5,800</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
-  </tr>
-
-  <tr>
-    <td><img src="etc3.jpg" alt="etc" width="150" height="150"></td>
-    <td>Camp Folding Cot</td>
-    <td>2,300</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >SHERPA GAITER</div></td>
+    <td><div class="text" >900</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="etc4.jpg" alt="etc" width="150" height="150"></td>
-    <td>Flexlite Table</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Please Login !!')">Buy</button></td>
+    <td><div class="text" >Flexlite Table</div></td>
+    <td><div class="text" >3,500</div></td>
+    <td><div class="text" ><a href='plogin.php'>Add to cart</a></div> </td>
   </tr>
 </table>
 
@@ -210,6 +193,7 @@
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>

@@ -39,7 +39,7 @@ input[type=password] : focus {
 <body>
   <div class="name" id="name">
   <font size=8 color="white">
-  <p>Welcome to CSB outdoor store</p>
+  <p>Please Login First</p>
 </div>
 
   <div class="login" id ="login">
@@ -56,7 +56,6 @@ input[type=password] : focus {
     <button type="button" onclick="window.location.href='Homepage.php'">Home</button>
   </form>
   </div>
-  <div class="imgbottom" id="imgbottom">
-  </div>
+
 </body>
 </html>

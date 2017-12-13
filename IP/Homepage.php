@@ -44,9 +44,9 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Login.php">Login</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="Register.php">Register</a>
-      </li>
     </li>
   </ul>
 </nav>
@@ -54,10 +54,11 @@
   <div class="column side">
 
     <div class = "leftspace" id="leftspace">
-      <h2>CATEGORY<h2>
+      <p>&emsp;&emsp;&emsp;&emsp;&emsp;Not Login</P>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY<h2>
 
 
-        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Kinfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button" onclick="window.location.href='storeknife.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetent.php'">&nbsp;&nbsp;&nbsp;&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storebag.php'">BackBag&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeoutfit.php'">&nbsp;&nbsp;&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
@@ -66,33 +67,40 @@
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
-      <p><h1>สินค้าใหม่</h1></p>
+      <p><h1>New Item</h1></p>
       <table style="width:95%">
-      <tr>
-        <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าร่านน</th>
-        <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหี</th>
-        <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-        หน้าหรี่</th>
-      </tr>
+        <tr>
+          <th><img src="buck.jpg" alt="knife" width="200" height="200">
+        </th>
+          <th><img src="etc.jpg" alt="knife" width="200" height="200">
+          </th>
+          <th><img src="outfit2.jpg" alt="knife" width="200" height="200">
+          </th>
+        </tr>
+        <tr>
+          <td><div ail>สินค้านี้กำลังจะว่าจำหน่ายในเว็ปนี้</td>
+          <td>Fenix TK20R ที่ฉายได้ไกลถึง20ม.</td>
+          <td>รองเท้าหุ้มข้อสำหรับเดินป่า</td>
+
+        </tr>
     </table>
 
-    <p><h1>แนะนำ</h1></p>
+    <p><h1>Recommend</h1></p>
     <table style="width:95%">
-    <tr>
-      <th><img src="knife.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าร่านน</th>
-      <th><img src="knife2.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหี</th>
-      <th><img src="knife3.jpg" alt="knife" width="200" height="200"><br><br>
-      หน้าหรี่</th>
-    </tr>
+      <tr>
+        <th><img src="outfit.jpg" alt="knife" width="200" height="200"><br><br>
+        เสื้อกันหนาวและป้องกันน้ำ</th>
+        <th><img src="etc2.jpg" alt="knife" width="200" height="200"><br><br>
+      อุปกรณ์ทำอาหารกลางแจ้ง</th>
+        <th><img src="outfit3.jpg" alt="knife" width="200" height="200"><br><br>
+        กางเกงเดินป่ากันน้ำ</th>
+      </tr>
   </table>
   </div>
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
@@ -100,6 +108,7 @@
       <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
       </th></tr>
       <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+      <tr><th><a href="https://www.511tactical.com/"><img src="5.11.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
   </table>
   </div>
   </div>

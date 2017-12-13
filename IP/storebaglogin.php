@@ -51,45 +51,47 @@
   <div class="column side">
 
     <div class = "leftspace" id="leftspace">
+      <label class="user"  align ="center" >Username&ensp;:&ensp;<?php echo $_SESSION["fname"]; ?>
+      <label class="user"  align ="center" >Email&ensp;:&ensp;<?php echo $_SESSION["email"]; ?></lable></lable><br><br>
       <h2>CATEGORY<h2>
 
 
         <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetentlogin.php'">&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storebaglogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bag&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Oytfit&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storebaglogin.php'">BackBag&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeetclogin.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;</button>
     </div>
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
       <p><h1>Bagback</h1></p>
-      <table style="width:80%">
+      <table style="width:100%" class="table">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Buy</th>
+    <th>Add to cart</th>
 
   </tr>
   <tr>
     <td><img src="backbag.jpg" alt="backbag" width="150" height="150"></td>
-    <td>WASING 55L</td>
-    <td>1,900</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 10 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >WASING 55L</div></td>
+    <td><div class="text" >1,900</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 10 &act=add'>Add to cart</a</div></td>
   </tr>
   <tr>
     <td><img src="backbag2.jpg" alt="backbag" width="150" height="150"></td>
-    <td>TETON Sports Explorer 4000</td>
-    <td>2,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 11 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >TETON Sports Explorer 4000</div></td>
+    <td><div class="text" >2,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 11 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="backbag3.jpg" alt="backbag" width="150" height="150"></td>
-    <td>G4Free 50L Outdoor Backpack</td>
-    <td>1,650</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 12 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >G4Free 50L Outdoor Backpack</div></td>
+    <td><div class="text" >1,650</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 12 &act=add'>Add to cart</a></div></td>
   </tr>
 </table>
 
@@ -97,6 +99,7 @@
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
@@ -104,6 +107,7 @@
       <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
       </th></tr>
       <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+      <tr><th><a href="https://www.511tactical.com/"><img src="5.11.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
   </table>
   </div>
   </div>

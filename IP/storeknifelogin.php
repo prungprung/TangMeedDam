@@ -51,13 +51,15 @@
   <div class="column side">
 
     <div class = "leftspace" id="leftspace">
+      <label class="user"  align ="center" >Username&ensp;:&ensp;<?php echo $_SESSION["fname"]; ?>
+      <label class="user"  align ="center" >Email&ensp;:&ensp;<?php echo $_SESSION["email"]; ?></lable></lable><br><br>
       <h2>CATEGORY<h2>
 
 
         <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetentlogin.php'">&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storebaglogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bag&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Oytfit&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storebaglogin.php'">BackBag&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeetclogin.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;</button>
     </div>
   </div>
@@ -66,49 +68,49 @@
     <div class="centerspace" id="centerspace">
       <p><h1>Knife</h1></p>
       <form action="cart.php" method="post">
-      <table style="width:100%">
+      <table style="width:100%" class="table">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Add to cart</th>
+    <th>Add to cart</th>
   </tr>
   <tr>
     <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>kershaw Hype</td>
-    <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 1 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >kershaw Hype</div></td>
+    <td><div class="text" >2,000</div></td>
+    <td><div class="text"><a href='cart.php? stockid= 1 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Jackson orange</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 2 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text">Jackson orange</div></td>
+    <td><div class="text">3,500</div></td>
+    <td><div class="text"><a href='cart.php? stockid= 2 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wave</td>
-    <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 3 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Leatherman Wave</div></td>
+    <td><div class="text" >5,000</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 3 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wingman</td>
-    <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 4 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Leatherman Wingman</div></td>
+    <td><div class="text" >4,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 4 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 845 Vantage Force</td>
-    <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 5 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Buck 845 Vantage Force</div></td>
+    <td><div class="text" >9,000</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 5 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 284 Bantam BBW</td>
-    <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 6 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Buck 284 Bantam BBW</div></td>
+    <td><div class="text" >6,535</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 6 &act=add'>Add to cart</a></div></td>
   </tr>
 </table>
 </form>
@@ -117,6 +119,7 @@
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
@@ -124,6 +127,7 @@
       <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
       </th></tr>
       <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+      <tr><th><a href="https://www.511tactical.com/"><img src="5.11.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
   </table>
   </div>
   </div>

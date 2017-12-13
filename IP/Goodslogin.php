@@ -55,10 +55,12 @@
   <div class="column side">
 
     <div class = "leftspace" id="leftspace">
+      <label class="user"  align ="center" >Username&ensp;:&ensp;<?php echo $_SESSION["fname"]; ?>
+      <label class="user"  align ="center" >Email&ensp;:&ensp;<?php echo $_SESSION["email"]; ?></lable></lable><br><br>
       <h2>CATEGORY<h2>
 
 
-        <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Kinfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+        <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetentlogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storebaglogin.php'">BackBag&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
@@ -68,138 +70,113 @@
   <div class="column middle">
     <div class="centerspace" id="centerspace">
       <p><h1>All Item</h1></p>
-      <table style="width:80%">
+      <table style="width:100%" class="table">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Buy</th>
+    <th>Add to cart</th>
 
   </tr>
   <tr>
     <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>kershaw Hype</td>
-    <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 1 &act=add'>Add cart</a></td>
+    <td><div class="text" >kershaw Hype</div></td>
+    <td><div class="text" >2,000</div></td>
+    <td><div class="text"><a href='cart.php? stockid= 1 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Jackson orange</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 2 &act=add'>Add cart</a></td>
+    <td><div class="text">Jackson orange</div></td>
+    <td><div class="text">3,500</div></td>
+    <td><div class="text"><a href='cart.php? stockid= 2 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wave</td>
-    <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 3 &act=add'>Add cart</a></td>
+    <td><div class="text" >Leatherman Wave</div></td>
+    <td><div class="text" >5,000</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 3 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Leatherman Wingman</td>
-    <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 4 &act=add'>Add cart</a></td>
+    <td><div class="text" >Leatherman Wingman</div></td>
+    <td><div class="text" >4,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 4 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 845 Vantage Force</td>
-    <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 5 &act=add'>Add cart</a></td>
+    <td><div class="text" >Buck 845 Vantage Force</div></td>
+    <td><div class="text" >9,000</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 5 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
-    <td>Buck 284 Bantam BBW</td>
-    <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 6 &act=add'>Add cart</a></td>
+    <td><div class="text" >Buck 284 Bantam BBW</div></td>
+    <td><div class="text" >6,535</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 6 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="Tent.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Half Dome 2 Plus</td>
-    <td>8,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 7 &act=add'>Add cart</a></td>
+    <td><div class="text" >Half Dome 2 Plus</div></td>
+    <td><div class="text" >8,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 7 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="Tent2.jpg" alt="Tent" width="150" height="150"></td>
-    <td>OneLink Shelter</td>
-    <td>7,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 8 &act=add'>Add cart</a></td>
+    <td><div class="text" >OneLink Shelter</div></td>
+    <td><div class="text" >7,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 8 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="Tent3.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Kingdom 6 Tent</td>
-    <td>10,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 9 &act=add'>Add cart</a></td>
+    <td><div class="text" >Kingdom 6 Tent</div></td>
+    <td><div class="text" >10,500</div</td>
+    <td><div class="text" ><a href='cart.php? stockid= 9 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="backbag.jpg" alt="backbag" width="150" height="150"></td>
-    <td>WASING 55L</td>
-    <td>1,900</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 10 &act=add'>Add cart</a></td>
+    <td><div class="text" >WASING 55L</div></td>
+    <td><div class="text" >1,900</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 10 &act=add'>Add to cart</a</div></td>
   </tr>
   <tr>
     <td><img src="backbag2.jpg" alt="backbag" width="150" height="150"></td>
-    <td>TETON Sports Explorer 4000</td>
-    <td>2,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 11 &act=add'>Add cart</a></td>
+    <td><div class="text" >TETON Sports Explorer 4000</div></td>
+    <td><div class="text" >2,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 11 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="backbag3.jpg" alt="backbag" width="150" height="150"></td>
-    <td>G4Free 50L Outdoor Backpack</td>
-    <td>1,650</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 12 &act=add'>Add cart</a></td>
-  </tr>
-  <tr>
-    <td><img src="outfit.jpg" alt="outfit" width="150" height="150"></td>
-    <td>MOUNTAIN JACKET</td>
-    <td>16,000</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 13 &act=add'>Add cart</a></td>
-  </tr>
-  <tr>
-    <td><img src="outfit2.jpg" alt="outfit" width="150" height="150"></td>
-    <td>SNOWFUSE BOOTS</td>
-    <td>2,700</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 14 &act=add'>Add cart</a></td>
-  </tr>
-
-  <tr>
-    <td><img src="outfit3.jpg" alt="outfit" width="150" height="150"></td>
-    <td>MOTION PANTS</td>
-    <td>2,950</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 15 &act=add'>Add cart</a></td>
-  </tr>
-  <tr>
-    <td><img src="outfit4.jpg" alt="outfit" width="150" height="150"></td>
-    <td>SHERPA GAITER</td>
-    <td>900</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 16 &act=add'>Add cart</a></td>
+    <td><div class="text" >G4Free 50L Outdoor Backpack</div></td>
+    <td><div class="text" >1,650</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 12 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="etc.jpg" alt="etc" width="150" height="150"></td>
-    <td>Fenix TK20R</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 17 &act=add'>Add cart</a></td>
+    <td><div class="text" >Fenix TK20R</div></td>
+    <td><div class="text" >3,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 17 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="etc2.jpg" alt="etc" width="150" height="150"></td>
-    <td>Pinnacle Dualist Cookset</td>
-    <td>5,800</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 18 &act=add'>Add cart</a></td>
+    <td><div class="text" >Pinnacle Dualist Cookset</div></td>
+    <td><div class="text" >5,800</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 18 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="etc3.jpg" alt="etc" width="150" height="150"></td>
-    <td>Camp Folding Cot</td>
-    <td>2,300</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 19 &act=add'>Add cart</a></td>
+    <td><div class="text" >Camp Folding Cot</div></td>
+    <td><div class="text" >2,300</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 19 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="etc4.jpg" alt="etc" width="150" height="150"></td>
-    <td>Flexlite Table</td>
-    <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 20 &act=add'>Add cart</a></td>
+    <td><div class="text" >Flexlite Table</div></td>
+    <td><div class="text" >3,500></div</td>
+    <td><div class="text" ><a href='cart.php? stockid= 20 &act=add'>Add to cart</a></div></td>
   </tr>
 </table>
 
@@ -207,6 +184,7 @@
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
@@ -214,6 +192,7 @@
       <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
       </th></tr>
       <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+      <tr><th><a href="https://www.511tactical.com/"><img src="5.11.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
   </table>
   </div>
   </div>

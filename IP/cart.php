@@ -4,9 +4,8 @@ if (isset($_REQUEST['stockid'])) {
   $p_id = $_REQUEST['stockid'];
 }else {
   $p_id ='';
-	//$p_id = $_REQUEST['stockid'];
+  }
 	$act = $_REQUEST['act'];
-
 	if($act=='add' && !empty($p_id))
 	{
 		if(isset($_SESSION['cart'][$p_id]))
@@ -19,7 +18,7 @@ if (isset($_REQUEST['stockid'])) {
 		}
 	}
 
-	if($act=='remove' && !empty($p_id))  //ยกเลิกการสั่งซื้อ
+	if($act=='remove' && !empty($p_id))
 	{
 		unset($_SESSION['cart'][$p_id]);
 	}
@@ -41,7 +40,7 @@ if (isset($_REQUEST['stockid'])) {
 <title>Shopping Cart</title>
 </head>
 
-<body>
+<body background="BG2.jpg">
 <form id="frmcart" name="frmcart" method="post" action="?act=update">
   <table width="600" border="0" align="center" class="square">
     <tr>
@@ -71,13 +70,13 @@ if(!empty($_SESSION['cart']))
 		$sum = $row['price'] * $qty;
 		$total += $sum;
 		echo "<tr>";
-		echo "<td width='334'>" . $row["stockname"] . "</td>";
-		echo "<td width='46' align='right'>" .number_format($row["price"],2) . "</td>";
-		echo "<td width='57' align='right'>";
-		echo "<input type='text' name='amount[$p_id]' value='$qty' size='2' stockid= '$p_id' /></td>";
-		echo "<td width='93' align='right'>".number_format($sum,2)."</td>";
+		echo "<td width='334' bgcolor= '#EAEAEA'>" . $row["stockname"] . "</td>";
+		echo "<td width='46' bgcolor= '#EAEAEA'  align='right'>" .number_format($row["price"],2) . "</td>";
+		echo "<td width='57' bgcolor= '#EAEAEA' align='right'>";
+		echo "<input type='text' bgcolor= '#EAEAEA' name='amount[$p_id]' value='$qty' size='2' stockid= '$p_id' /></td>";
+		echo "<td width='93' bgcolor= '#EAEAEA' align='right'>".number_format($sum,2)."</td>";
 		//remove product
-		echo "<td width='46' align='center'><a href='cart.php?stockid=$p_id&act=remove'>ลบ</a></td>";
+		echo "<td width='46' bgcolor= '#EAEAEA' align='center'><a href='cart.php?stockid=$p_id&act=remove'>ลบ</a></td>";
 		echo "</tr>";
 	}
 	echo "<tr>";
@@ -91,7 +90,7 @@ if(!empty($_SESSION['cart']))
 <td><a href="Goodslogin.php">กลับหน้ารายการสินค้า</a></td>
 <td colspan="4" align="right">
     <input type="submit" name="button" id="button" value="ปรับปรุง" />
-    <input type="button" name="Submit2" value="สั่งซื้อ" onclick="window.location='Homepagelogin';" />
+    <input type="button" name="Submit2" value="สั่งซื้อ" onclick="window.location='cutstock.php'" />
 </td>
 </tr>
 </table>

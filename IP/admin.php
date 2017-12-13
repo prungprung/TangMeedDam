@@ -54,7 +54,7 @@
   <div class="column middle">
     <div class="centerspace" id="centerspace">
       <p><h1>Add Product</h1></p>
-      <form  action="insertadd.php" method="POST" te>
+      <form  action="insertadd.php" method="POST">
       <table style="width:80%" class="table">
   <tr>
     <th>Picture</th>

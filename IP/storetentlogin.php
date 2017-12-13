@@ -51,45 +51,47 @@
   <div class="column side">
 
     <div class = "leftspace" id="leftspace">
+      <label class="user"  align ="center" >Username&ensp;:&ensp;<?php echo $_SESSION["fname"]; ?>
+      <label class="user"  align ="center" >Email&ensp;:&ensp;<?php echo $_SESSION["email"]; ?></lable></lable><br><br>
       <h2>CATEGORY<h2>
 
 
         <button class="button" onclick="window.location.href='storeknifelogin.php'">&nbsp;Knife&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storetentlogin.php'">&nbsp;Tent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storebaglogin.php'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bag&nbsp;&nbsp;</button><br>
-        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Oytfit&nbsp;&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storebaglogin.php'">BackBag&nbsp;</button><br>
+        <button class="button"onclick="window.location.href='storeoutfitlogin.php'">&nbsp;&nbsp;Outfit&nbsp;&nbsp;</button><br>
         <button class="button"onclick="window.location.href='storeetclogin.php'">&nbsp;&nbsp;&nbsp;ETC.&nbsp;&nbsp;</button>
     </div>
   </div>
   <div class="column middle">
     <div class="centerspace" id="centerspace">
       <p><h1>Tent</h1></p>
-      <table style="width:80%">
+      <table style="width:100%" class="table">
   <tr>
     <th>Picture</th>
     <th>Name</th>
     <th>Price</th>
-    <th>&emsp;&emsp;&emsp;Buy</th>
+    <th>Add to cart</th>
 
   </tr>
   <tr>
     <td><img src="Tent.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Half Dome 2 Plus</td>
-    <td>8,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 7 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Half Dome 2 Plus</div></td>
+    <td><div class="text" >8,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 7 &act=add'>Add to cart</a></div></td>
   </tr>
   <tr>
     <td><img src="Tent2.jpg" alt="Tent" width="150" height="150"></td>
-    <td>OneLink Shelter</td>
-    <td>7,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 8 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >OneLink Shelter</div></td>
+    <td><div class="text" >7,500</div></td>
+    <td><div class="text" ><a href='cart.php? stockid= 8 &act=add'>Add to cart</a></div></td>
   </tr>
 
   <tr>
     <td><img src="Tent3.jpg" alt="Tent" width="150" height="150"></td>
-    <td>Kingdom 6 Tent</td>
-    <td>10,500</td>
-    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 9 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
+    <td><div class="text" >Kingdom 6 Tent</div></td>
+    <td><div class="text" >10,500</div</td>
+    <td><div class="text" ><a href='cart.php? stockid= 9 &act=add'>Add to cart</a></div></td>
   </tr>
 </table>
 
@@ -97,6 +99,7 @@
   </div>
   <div class="column side">
     <div class="rightspace" id="rightspace">
+      <p><h1>BRAND</h1></p>
     <table style="width:95%">
 
       <tr><th><a href="https://www.buckknives.com/"><img src="Buck.jpg" alt="knife" width="150" height="150"></a><br><br>
@@ -104,6 +107,7 @@
       <tr><th><a href="https://www.leatherman.com/"><img src="leatherman.jpg" alt="knife" width="150" height="150"></a><br><br>
       </th></tr>
       <tr><th><a href="http://www.swisstechtools.com/"><img src="swisstech.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
+      <tr><th><a href="https://www.511tactical.com/"><img src="5.11.jpg" alt="knife" width="150" height="150"></a><br><br></th></tr>
   </table>
   </div>
   </div>
