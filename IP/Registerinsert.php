@@ -9,7 +9,6 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
 $name = $_POST['username'];
 $mail = $_POST['email'];
 $pass = $_POST['password'];

@@ -77,38 +77,38 @@
     <td><img src="swisstechknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>kershaw Hype</td>
     <td>2,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="1" onclick="alert('Hello world!')">Add</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 1 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="swisstechknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Jackson orange</td>
     <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="2" onclick="alert('Hello world!')">Add</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 2 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 
   <tr>
     <td><img src="leathermanknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>Leatherman Wave</td>
     <td>5,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="3" onclick="alert('Hello world!')">Add</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 3 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="leathermanknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Leatherman Wingman</td>
     <td>4,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="4" onclick="alert('Hello world!')">Add</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 4 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="buckknife1.jpg" alt="knife" width="150" height="150"></td>
     <td>Buck 845 Vantage Force</td>
     <td>9,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="5" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 5 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="buckknife2.jpg" alt="knife" width="150" height="150"></td>
     <td>Buck 284 Bantam BBW</td>
     <td>6,535</td>
-    <td>&emsp;&emsp;&emsp;<button type="submit" name="addcart" value="6" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 6 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 </table>
 </form>

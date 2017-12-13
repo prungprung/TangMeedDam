@@ -114,7 +114,19 @@ body {
   margin-left: 20%;
 margin-top: 22%;
 border-radius: 50%;
+color: white;
 .img {
     border-radius: 50%;
 }
+}
+#table{
+  text-align: center;
+}
+.text{
+margin-top: 60px;
+}
+#rightspacead{
+  margin-top: 30px;
+  margin-left: 25px ;
+  color: white;
 }

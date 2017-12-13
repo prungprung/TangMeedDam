@@ -76,26 +76,26 @@
     <td><img src="etc.jpg" alt="etc" width="150" height="150"></td>
     <td>Fenix TK20R</td>
     <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 17 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="etc2.jpg" alt="etc" width="150" height="150"></td>
     <td>Pinnacle Dualist Cookset</td>
     <td>5,800</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 18 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 
   <tr>
     <td><img src="etc3.jpg" alt="etc" width="150" height="150"></td>
     <td>Camp Folding Cot</td>
     <td>2,300</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 19 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="etc4.jpg" alt="etc" width="150" height="150"></td>
     <td>Flexlite Table</td>
     <td>3,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 20 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 </table>
 

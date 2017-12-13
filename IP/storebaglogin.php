@@ -76,20 +76,20 @@
     <td><img src="backbag.jpg" alt="backbag" width="150" height="150"></td>
     <td>WASING 55L</td>
     <td>1,900</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 10 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="backbag2.jpg" alt="backbag" width="150" height="150"></td>
     <td>TETON Sports Explorer 4000</td>
     <td>2,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 11 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 
   <tr>
     <td><img src="backbag3.jpg" alt="backbag" width="150" height="150"></td>
     <td>G4Free 50L Outdoor Backpack</td>
     <td>1,650</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 12 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 </table>
 

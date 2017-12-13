@@ -76,20 +76,20 @@
     <td><img src="Tent.jpg" alt="Tent" width="150" height="150"></td>
     <td>Half Dome 2 Plus</td>
     <td>8,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 7 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="Tent2.jpg" alt="Tent" width="150" height="150"></td>
     <td>OneLink Shelter</td>
     <td>7,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 8 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 
   <tr>
     <td><img src="Tent3.jpg" alt="Tent" width="150" height="150"></td>
     <td>Kingdom 6 Tent</td>
     <td>10,500</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 9 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 </table>
 

@@ -38,7 +38,7 @@
                       $sql = " SELECT * FROM shop WHERE user_id ='$uid' ";
                       $result = mysqli_query($conn, $sql);
 
-                      if($Username=="admin"){ //ถ้าเป็น admin ให้กระโดดไปหน้า admin_page.php
+                      if($Username=="admin@hotmail.com"){ //ถ้าเป็น admin ให้กระโดดไปหน้า admin_page.php
 
                         Header("Location:admin.php");
                       }else{

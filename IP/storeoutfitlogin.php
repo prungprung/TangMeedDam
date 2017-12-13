@@ -76,26 +76,26 @@
     <td><img src="outfit.jpg" alt="outfit" width="150" height="150"></td>
     <td>MOUNTAIN JACKET</td>
     <td>16,000</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 13 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="outfit2.jpg" alt="outfit" width="150" height="150"></td>
     <td>SNOWFUSE BOOTS</td>
     <td>2,700</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 14 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 
   <tr>
     <td><img src="outfit3.jpg" alt="outfit" width="150" height="150"></td>
     <td>MOTION PANTS</td>
     <td>2,950</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 15 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
   <tr>
     <td><img src="outfit4.jpg" alt="outfit" width="150" height="150"></td>
     <td>SHERPA GAITER</td>
     <td>900</td>
-    <td>&emsp;&emsp;&emsp;<button type="button" onclick="alert('Hello world!')">Buy</button></td>
+    <td>&emsp;&emsp;&emsp;<a href='cart.php? stockid= 16 &act=add'> เพิ่มลงตะกร้าสินค้า </a></td>
   </tr>
 </table>
 
